@@ -20,7 +20,9 @@ const potions = {
   wind_charged: { color: 12438015, variants: ["base"] },
   weaving: { color: 7891290, variants: ["base"] },
   oozing: { color: 10092451, variants: ["base"] },
-  infested: { color: 9214860, variants: ["base"] }
+  infested: { color: 9214860, variants: ["base"] },
+  water: { color: 3694022, variants: ["base"] },
+  mundane: { color: 3694022, variants: ["base"] }
 }
 
 function potionVariants(name, color, variants, isGui) {
