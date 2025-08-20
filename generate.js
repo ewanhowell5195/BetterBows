@@ -22,7 +22,9 @@ const potions = {
   oozing: { color: 10092451, variants: ["base"] },
   infested: { color: 9214860, variants: ["base"] },
   water: { color: 3694022, variants: ["base"] },
-  mundane: { color: 3694022, variants: ["base"] }
+  mundane: { color: 3694022, variants: ["base"] },
+  thick: { color: 3694022, variants: ["base"] },
+  awkward: { color: 3694022, variants: ["base"] }
 }
 
 function potionVariants(name, color, variants, isGui) {
